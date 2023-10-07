@@ -1,0 +1,24 @@
+.tombol button{
+ background: gray;
+ padding:0 27px;
+ display: inline-block;
+ font-size: 30px;
+ flex: 1;
+ border-radius: 5px;
+}
+.hapus{
+ flex: 4;
+}
+.tombol button:hover{
+ transform: scale(1.1);
+ transition: .333;
+}
+.tombol button:active{
+ transform: scale(1);
+ transition: .1;
+}
+
+
+.tombol button.aksi{
+ background-color: orange;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="style.css">
+ <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+ <title>kalkulator</title>
+</head>
+<body class="bg-gray-300">
+ <main>
+
+  <figure class="my-8">
+   <div class="form border-4 w-96 mx-auto border-white">
+    <div class="border-2 border-gray-600 font-bold">
+     <form>
+      <input type="text" class="p-1 w-full outline-none text-right" type="text">
+      <span class="hasil p-1 bg-white block text-right"></span>
+     </div>
+    </form>
+   </div>
+   <div class="form border-4 w-96 mx-auto border-white text-white">
+    <div class="tombol">
+     <div class="border-2 border-gray-900 p-2 bg-white">
+      <div class="flex gap-1 justify-end mb-[8px]">
+       <span class="block flex-1">d</span>
+       <span class="block flex-1">d</span>
+       <span class="block flex-1">d</span>
+       <button class="aksi flex-1">Hapus</button>
+      </div>
+      <div class="integer flex gap-2 flex-wrap">
+       <button class="satu">1</button>
+       <button class="dua">2</button>
+       <button class="tiga">3</button>
+       <button class="aksi tambah">+</button>
+       <button class="empat">4</button>
+       <button class="lima">5</button>
+       <button class="enam">6</button>
+       <button class="aksi kurang">-</button>
+       <button class="tujuh">7</button>
+       <button class="delapan">8</button>
+       <button class="sembilan">9</button>
+       <button class="aksi kali">x</button>
+       <button class="aksi reset">c</button>
+       <button class="nol">0</button>
+       <button class="aksi sama-dengan">=</button>
+       <button class="aksi bagi">/</button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </figure>
+ </main>
+ <script src="srcp.js"></script>
+</body>
+</html>

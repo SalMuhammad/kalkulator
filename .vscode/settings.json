@@ -1,0 +1,7 @@
+[
+    {
+        "key": "ctrl+l",
+        "command": "settings.cycle.lineNumbers",
+        "when": "editorFocus"
+    }  
+]
